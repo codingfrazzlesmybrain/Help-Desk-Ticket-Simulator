@@ -27,6 +27,6 @@ if st.session_state.current_issue:
         st.markdown("**Recommended Fix Command:**")
         st.code(issue["fix_command"], language="bash")
 
-        # Optional: Add a "Simulate Fix" button
+        # FIX ISSUE SIMULATION BUTTON
         if st.button("🧑‍💻 Run Fix Simulation"):
             st.success(f"✅ {issue['fix_command']} executed successfully (simulated)")
