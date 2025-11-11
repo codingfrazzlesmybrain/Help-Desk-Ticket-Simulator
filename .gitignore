@@ -1,0 +1,36 @@
+# Virtual environments
+venv/
+venv1/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# Environment / config files
+*.env
+*.ini
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Compiled binaries
+*.so
+*.dll
+*.exe
